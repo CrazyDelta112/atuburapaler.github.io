@@ -35,9 +35,9 @@ Number|Season|Splash
 ## Visuals
 - `seta MONKPPPQR`
 This defines if the game frontend will be using seasonal assets or not (0-1)
-- `r_colorGradingAnalyticalEnable 0; r_whiteBalanceTweaks 1; r_whiteBalanceIlluminant 2`
+- `r_colorGradingAnalyticalEnable 0;r_whiteBalanceTweaks 1;r_whiteBalanceIlluminant 2`
 This will emulate a neutral lighting for the game front end, which can be used to override VG and Cold War colored filters.
-- `r_colorGradingAnalyticalEnable 1; r_whiteBalanceTweaks 0; r_whiteBalanceIlluminant 0`
+- `r_colorGradingAnalyticalEnable 1;r_whiteBalanceTweaks 0;r_whiteBalanceIlluminant 0`
 This will restore previous values and return to the default front end lighting.
 - `r_tessellation`
 This will set the terrain tessellation details render (0-2) this setting is often set to 0 by the engine, you can use it when you want.
