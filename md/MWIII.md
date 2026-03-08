@@ -2,6 +2,11 @@
 ![](https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg)
 *->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
 
+## Versions
+Number|Season|Picture
+-|:-:|:-:
+`1.21`|![](../images/ui/MW-icon.png){30%:30%} Season Six|![](https://static.wikia.nocookie.net/callofduty/images/4/4d/SeasonSix_Keyart_MWIII.jpg){80%:80%}
+
 ## Menus
 **Offline**
 - `luiOpenMenu mainmenuoffline`
@@ -19,8 +24,11 @@
 - `luiOpenMenu obmainmenu`
 - `luiOpenMenu obplaymenu`
 - `luiOpenMenu obloadoutmanagement`
+- `luiOpenMenu battlemapsectorpreview`
+- `luiOpenMenu bpsectorpreview`
+- `luiOpenMenu bpmap`
 💡 If these don't work for you, delete `lui` prefix.
-💡 Online menus could have network dependencies.
+💡 Online menus could require network/external implementation.
 
 ## Visuals
 - `seta scr_game_use_squad_ui`
@@ -363,5 +371,10 @@ Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/ad/MiniRoy
 Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/f/fd/Resurgence_Icon_MWIII_WZ2.png)|`ui_gametype resurgence`
 Plunder|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/Plunder_Icon_MWIII_WZ2.png)|`ui_gametype plunder`
 Zombie Royale|![](https://static.wikia.nocookie.net/callofduty/images/9/97/ZombieRoyale_Icon_MWIII_WZ2.png)|`ui_gametype zxp`
-Purgatory|![](https://static.wikia.nocookie.net/callofduty/images/6/69/Purgatory_Icon_WZ2.png)|`ui_gametype limbo`
+
+**Special modes**
+Name|Icon|Full command
+-|:-:|-
 Totally The Same BR|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png)|`ui_gametype br;bg_brIsTotallyNormal 1`
+High Trip Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/7/77/HighTrip_Resurgence_Icon_MWIII_WZ2.png)|`ui_gametype culture;loot_table_zones "mp/loot/br/escape/culture/loot_table_zones.csv"`
+Purgatory|![](https://static.wikia.nocookie.net/callofduty/images/6/69/Purgatory_Icon_WZ2.png)|`ui_gametype limbo`
