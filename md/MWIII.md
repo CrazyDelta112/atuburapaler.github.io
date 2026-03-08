@@ -5,8 +5,7 @@
 ## Versions
 Number|Season|Picture
 -|:-:|:-:
-|![](https://static.wikia.nocookie.net/callofduty/images/b/be/TierSkip_Season3_Icon_MWIII.png){30%:30%} Season Three|![](https://static.wikia.nocookie.net/callofduty/images/7/74/SeasonThree_Keyart_MWIII.jpg){80%:80%}
-`1.18`-`1.21`|![](https://static.wikia.nocookie.net/callofduty/images/d/d6/TierSkip_Season6_Icon_MWIII.png){30%:30%} Season Six|![](https://static.wikia.nocookie.net/callofduty/images/4/4d/SeasonSix_Keyart_MWIII.jpg){80%:80%}
+`1.18`-`1.21`|![](https://static.wikia.nocookie.net/callofduty/images/d/d6/TierSkip_Season6_Icon_MWIII.png){40%:40%} Season Six|![](https://static.wikia.nocookie.net/callofduty/images/4/4d/SeasonSix_Keyart_MWIII.jpg){80%:80%}
 
 ## Menus
 **Offline**
