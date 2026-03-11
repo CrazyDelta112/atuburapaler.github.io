@@ -570,9 +570,9 @@ async function renderPage(pageKey) {
     const cards = document.getElementById('overview-cards');
     const h2s = [...content.querySelectorAll('h2')].slice(0, 3);
     const featureImages = [
-      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s1-2026/CODM-S1ANNOUNCE-TOUT.jpg',
-      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/guides/mwiii/maps/bait/COD-PLAY-MAPS-CORE-BAIT-TOUT.webp',
-      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/vgd/VGD-S5-MAP-BEHEADED-TOUT.jpg'
+      'https://static.wikia.nocookie.net/callofduty/images/0/0d/Multiplayer_Reveal_Promo36_MWII.jpg',
+      'https://static.wikia.nocookie.net/callofduty/images/2/27/Multiplayer_Promo2_MWIII.jpg',
+      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/vgd/VGD-S2-ANNOUNCEMENT-016.jpg'
     ];
 
     cards.innerHTML = h2s.map((h, i) => {
@@ -669,7 +669,7 @@ function renderHome() {
         <div class="section-heading">
           <div>
             <h2>Page Info</h2>
-            <p>Jump into COD game info with commands, events, camos, and other stuff all redesigned for Atlas 2.0</p>
+            <p>Jump into COD game info with commands, events, camos, and other stuff all redesigned for Atlas</p>
           </div>
         </div>
         <div class="card-grid">${gameCards}</div>
@@ -683,21 +683,21 @@ function renderHome() {
           </div>
         </div>
         <div class="overview-grid">
-          <article class="feature-card" style="--card-image:url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwii/MWII-S05R-DRCZONE1-TOUT.jpg')">
+          <article class="feature-card" style="--card-image:url('https://blog.activision.com/content/dam/atvi/activision/atvi-touchui/blog/callofduty/feature/mw-launch-touts/MW-FIELDUPGRADES-TOUT.jpg')">
             <div class="feature-inner">
               <div class="feature-kicker">Visual Upgrade</div>
               <div class="feature-title">Blog style layout</div>
               <p class="feature-text">Full-width banners, darker overlays, and overall better design inspired by the official COD site</p>
             </div>
           </article>
-          <article class="feature-card" style="--card-image:url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/bo6/BO6--ANTITOX-TOUT.jpg')">
+          <article class="feature-card" style="--card-image:url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/MWIII-REVEAL-CARRYFORWARD-010.jpg')">
             <div class="feature-inner">
               <div class="feature-kicker">Utility Upgrade</div>
               <div class="feature-title">Copyable Commands</div>
               <p class="feature-text">The ability to copy commands with a single button lol</p>
             </div>
           </article>
-          <article class="feature-card" style="--card-image:url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/vgd/VGD-S5-MAP-BEHEADED-TOUT.jpg')">
+          <article class="feature-card" style="--card-image:url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwiii/MWIII-PRESEASON-01-TOUT.jpg')">
             <div class="feature-inner">
               <div class="feature-kicker">Structure Upgrade</div>
               <div class="feature-title">Information Side navbar</div>
