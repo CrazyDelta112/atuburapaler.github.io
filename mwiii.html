@@ -1,6 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call of Duty Atlas - MWIII</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <div id="site-loader">
+    <div class="loader-inner">
+      <div class="loader-logo">CALL OF DUTY ATLAS</div>
+      <div class="loader-bar">
+        <div class="loader-progress"></div>
+      </div>
+      <div class="loader-text">Loading Intel…</div>
+    </div>
+  </div>
+  <header class="cod-nav" id="site-nav"></header>
+  <main id="page-root"></main>
+  <footer class="footer">Call of Duty Atlas | by Atuburapaler</footer>
+  <script id="md-inline-mwiii" type="text/plain">
 # MODERN WARFARE III
 ![](https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg)
-*->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
+*"Take this to hell with you, Captain... Never bury your enemies alive."*
 
 ## Versions
 Number|Season|Picture
@@ -27,6 +52,9 @@ Number|Season|Picture
 - `luiOpenMenu battlemapsectorpreview`
 - `luiOpenMenu bpsectorpreview`
 - `luiOpenMenu bpmap`
+
+## Warning!
+
 💡 If these don't work for you, delete `lui` prefix. Example `openmenu mainlockoutmenu`
 💡 Online menus could require network/external implementation.
 
@@ -97,27 +125,27 @@ Field upgrade setup, example: *setJupiterPublicLoadout loadouts 0 fieldUpgradeSe
 ### Exclusive weapons
 Name|Icon|ID
 -|:-:|-
-Nothing|![](../images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
-Fists|![](../images/iw9/hud_icon_weapon_me_fist.png)|`iw9_drown`
-Fists (old)|![](../images/iw8/icon_weapon_me_fists.png)|`iw8_fists_mp_zmb`
+Nothing|![](./images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
+Fists|![](./images/iw9/hud_icon_weapon_me_fist.png)|`iw9_drown`
+Fists (old)|![](./images/iw8/icon_weapon_me_fists.png)|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png)|`iw9_lm_dblmg`
 Arcade Riveter|![](https://static.wikia.nocookie.net/callofduty/images/4/43/Riveter_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
 Arcade MORS|![](https://static.wikia.nocookie.net/callofduty/images/5/50/MORS_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`iw9_pi_stimpistol`
-Glass shard|![](../images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png)|`jup_me_glassshiv`
-Laser Vision (Temp V)|![](../images/iw9/hud_icon_power_laser_eyes.png)|`super_laser_charge_mp`
+Glass shard|![](./images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png)|`jup_me_glassshiv`
+Laser Vision (Temp V)|![](./images/iw9/hud_icon_power_laser_eyes.png)|`super_laser_charge_mp`
 Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025)|`rock_mp`
-Buzzsaw|![](../images/iw9/cp_tac_waypoint_buzzsaw.png)|`iw9_me_buzzsaw_mp`
-EMP bomb|![](../images/iw9/hud_icon_equipment_emp.png)|`iw9_cyberemp`
-Rebreather|![](../images/iw9/hud_icon_loot_rebreather.png)|`iw9_oxygenmask_mp`
-Iodine pills|![](../images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pills_mp`
+Buzzsaw|![](./images/iw9/cp_tac_waypoint_buzzsaw.png)|`iw9_me_buzzsaw_mp`
+EMP bomb|![](./images/iw9/hud_icon_equipment_emp.png)|`iw9_cyberemp`
+Rebreather|![](./images/iw9/hud_icon_loot_rebreather.png)|`iw9_oxygenmask_mp`
+Iodine pills|![](./images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pills_mp`
 
 ### Exclusive field upgrades
 Name|Icon|ID
 -|:-:|-
-Empty slot|![](../images/iw9/hud_x_marker.png)|`none`
+Empty slot|![](./images/iw9/hud_x_marker.png)|`none`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`super_stimpistol`
-Oxygen mask|![](../images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
+Oxygen mask|![](./images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
 Haunted box|![](https://static.wikia.nocookie.net/callofduty/images/6/64/HauntedBox_FieldUpgrade_HUD_Icon_WZ2.png)|`super_haunted_drop`
 
 ### Camouflages
@@ -135,7 +163,7 @@ Name|Icon|ID
 One Trick|![](https://static.wikia.nocookie.net/callofduty/images/8/88/OneTrick_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_01`
 Molten Obsidian|![](https://static.wikia.nocookie.net/callofduty/images/f/f7/MoltenObsidian_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_02`
 Mercury|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/Mercury_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_03`
-Constellation's End|![](../images/iw9/jup_camo_prest_04.gif){90px:90px}|`jup_camo_prest_04`
+Constellation's End|![](./images/iw9/jup_camo_prest_04.gif){90px:90px}|`jup_camo_prest_04`
 
 MWII Multiplayer mastery
 Name|Icon|ID
@@ -151,8 +179,8 @@ Name|Icon|ID
 Royalty Tiger|![](){90px:90px}|jup_camo_eventsc
 
 ## MODERN WARFARE ZOMBIES
-![](../images/iw9/jup-ob-bann.png)
-*->"No one gets in, nothin' - I mean, nothin' gets out. Clear?"<-*
+![](./images/iw9/jup-ob-bann.png)
+*"No one gets in, nothin' - I mean, nothin' gets out. Clear?"*
 
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64;scr_default_maxagents 64;ui_serverframeduration 16;ui_physicsframeduration 16`
 Stability values.
@@ -278,14 +306,14 @@ Sergeant's Beret|![](https://static.wikia.nocookie.net/callofduty/images/3/37/Se
 Name|Icon|ID
 -|:-:|-
 Armor Plate|![](https://static.wikia.nocookie.net/callofduty/images/1/18/ArmorPlate_Icon_WZ2.png)|`ob_jup_item_armor_plate`
-Self Revive|![](../images/iw9/hud_icon_loot_revive.png)|`ob_jup_item_revive_self_revive`
-2-Plate Armor Vest|![](../images/iw9/hud_icon_loot_armor_medium.png)|`ob_jup_item_plate_carrier_2`
-3-Plate Armor Vest|![](../images/iw9/hud_icon_loot_armor_heavy.png)|`ob_jup_item_plate_carrier_3`
-Medium Rucksack|![](../images/iw9/hud_icon_loot_backpack_medium.png)|`ob_jup_item_backpack_medium`
-Large Rucksack|![](../images/iw9/hud_icon_loot_backpack_large.png)|`ob_jup_item_backpack_large`
+Self Revive|![](./images/iw9/hud_icon_loot_revive.png)|`ob_jup_item_revive_self_revive`
+2-Plate Armor Vest|![](./images/iw9/hud_icon_loot_armor_medium.png)|`ob_jup_item_plate_carrier_2`
+3-Plate Armor Vest|![](./images/iw9/hud_icon_loot_armor_heavy.png)|`ob_jup_item_plate_carrier_3`
+Medium Rucksack|![](./images/iw9/hud_icon_loot_backpack_medium.png)|`ob_jup_item_backpack_medium`
+Large Rucksack|![](./images/iw9/hud_icon_loot_backpack_large.png)|`ob_jup_item_backpack_large`
 Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/5/57/GasMask_Icon_WZ.png)|`ob_jup_item_gasmask`
 Durable Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/7/72/DurableGasMask_Icon_WZ.png)|`ob_jup_item_gasmask_durable`
-Stronghold Keycard|![](../images/iw9/jup_hud_icon_loot_keycard_stronghold_zm.png)|`ob_jup_item_key_human_stronghold`
+Stronghold Keycard|![](./images/iw9/jup_hud_icon_loot_keycard_stronghold_zm.png)|`ob_jup_item_key_human_stronghold`
 Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
 LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_blackhole_bomb`
 Juggernaut|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Juggernaut_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_juggernaut`
@@ -293,12 +321,12 @@ Precision Airstrike|![](https://static.wikia.nocookie.net/callofduty/images/8/81
 Sentry Gun|![](https://static.wikia.nocookie.net/callofduty/images/9/90/SentryGun_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_sentrygun`
 Cluster Mine|![](https://static.wikia.nocookie.net/callofduty/images/0/09/ClusterMine_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_cluster_spike`
 Mortar Strike|![](https://static.wikia.nocookie.net/callofduty/images/6/67/MortarStrike_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_clusterstrike`
-Termal Phone|![](../images/iw9/hud_icon_equipment_thermal_phone.png)|`ob_jup_item_thermal_phone`
+Termal Phone|![](./images/iw9/hud_icon_equipment_thermal_phone.png)|`ob_jup_item_thermal_phone`
 
 ### WANDS
 Name|Icon|ID
 -|:-:|-
-Empty slot|![](../images/iw9/hud_x_marker.png)|`none`
+Empty slot|![](./images/iw9/hud_x_marker.png)|`none`
 Energy mine|![](https://static.wikia.nocookie.net/callofduty/images/a/ae/EnergyMine_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_energy_mine`
 Frenzied guard|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/FrenziedGuard_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frenzied_guard`
 Healing aura|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/HealingAura_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_healing_aura`
@@ -337,9 +365,9 @@ Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelH
 Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
 Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
 
-## WARZONE 2.0
+## Warzone 2.0
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
-*->"Let's get this done."<-*
+*"Let's get this done."*
 
 - `seta #x3116700c9b39c1eba`
 This sets the ammount of bots the next match will have (0-110)
@@ -378,3 +406,10 @@ Name|Icon|Full command
 Totally The Same BR|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png)|`ui_gametype br;bg_brIsTotallyNormal 1`
 High Trip Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/7/77/HighTrip_Resurgence_Icon_MWIII_WZ2.png)|`ui_gametype culture;loot_table_zones "mp/loot/br/escape/culture/loot_table_zones.csv"`
 Purgatory|![](https://static.wikia.nocookie.net/callofduty/images/6/69/Purgatory_Icon_WZ2.png)|`ui_gametype limbo`
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./assets/js/site.js"></script>
+  <script>renderPage('mwiii');</script>
+</body>
+</html>
