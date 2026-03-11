@@ -44,7 +44,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top right, rgba(0, 140, 255, 0.14), transparent 25%),
+    radial-gradient(circle at top right, rgba(0, 157, 255, 0.14), transparent 25%),
     radial-gradient(circle at top left, rgba(255,255,255,0.04), transparent 22%),
     linear-gradient(180deg, #0a0a0b 0%, #0c0d10 45%, #090909 100%);
   color: var(--text);
@@ -988,7 +988,7 @@ table img {
   outline: none;
   border-color: var(--cod-accent);
   box-shadow:
-    0 0 0 3px rgba(0, 187, 255, 0.22),
+    0 0 0 3px rgba(0, 76, 255, 0.22),
     0 8px 18px rgba(0,0,0,0.3);
 }
 
