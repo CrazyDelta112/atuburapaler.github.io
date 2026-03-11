@@ -23,11 +23,8 @@
   <main id="page-root"></main>
   <footer class="footer">Call of Duty Atlas | by Atuburapaler</footer>
   <script id="md-inline-mw" type="text/plain">
-# MODERN WARFARE
-![](https://shared.steamstatic.com/store_item_assets/steam/apps/2000950/library_hero_2x.jpg?t=1677185679)
-*"We get dirty and the world stays clean. That's the mission."*
 
-## Versions
+# Versions
 Number|Season|Splash
 -|:-:|:-:
 `1.16`|![](./images/ui/MW-icon.png) Season Two|![](./images/iw8/1.16.bmp)
@@ -49,20 +46,14 @@ Number|Season|Splash
 `1.65`|![](https://cdn2.steamgriddb.com/logo/0928a2ac707995558f4b3f0aefe1bccc.png){10%:10%}|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg)
 `1.67`|![](./images/ui/MW-icon.png) Retail|![](./images/iw8/1.0.bmp)
 
-## Menus
+# Menus
 - `luiOpenMenu mainlockoutmenu`
 - `luiOpenMenu mainmenuoffline`
 - `luiOpenMenu systemlinklobby`
 - `luiOpenMenu bundlelockermenu`
 - `luiOpenMenu wzseasonalopeningscreenpc`
 
-
-## Warning!
-
-💡 If these don't work for you, delete `lui` prefix. Example `openmenu mainlockoutmenu`
-💡 Online menus could require network/external implementation.
-
-## Visuals
+# Visuals
 
 - `seta MONKPPPQR`
 This defines if the game frontend will be using seasonal assets or not (0-1)
@@ -83,7 +74,7 @@ This will show/hide COD Points on menus (0-1)
 - `lfx_showDebugOverlay`
 This will show/hide developer info in an overlay (0-1) it might require an external implementation.
 
-## Inventories
+# Inventories
 
 - `setPrivateLoadout loadouts 0 name`
 Loadout name, example: *setPrivateLoadout loadouts 0 name "Fist of iron"*
@@ -92,7 +83,7 @@ Weapon setup, example: *setPrivateLoadout loadouts 0 weaponSetups 0 weapon iw8_a
 - `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
 Weapon setup camouflage, example: *setPrivateLoadout loadouts 0 weaponSetups 0 camo camo_11a*
 
-### Camouflages
+# Camouflages
 
 Name|Icon|ID
 -|:-:|-
@@ -101,7 +92,7 @@ Platinum|![](https://static.wikia.nocookie.net/callofduty/images/1/11/Platinum_C
 Damascus|![](https://static.wikia.nocookie.net/callofduty/images/0/09/Damascus_Camo_Icon_MW2019.png)|`camo_11c`
 Obsidian|![](https://static.wikia.nocookie.net/callofduty/images/3/31/Obsidian_Camo_Icon_MW2019.png)|`camo_11d`
 
-## Warzone
+# Warzone
 - `set QTQRQPLNK 1;set MLQNQTRRTK 1;set MKQQKMRORQ 16;exec br_core.cfg`
 Full Warzone trigger.
 - `set LOQQOSNQKN 0;openmenu WarzonePrivateMatchLobby`
@@ -125,7 +116,7 @@ This defines if the next match on escape it's going to use night assets
 - `seta scr_escape4_ee_6_2_enabled 1;seta scr_escape4_ee_6_3_enabled 1`
 This defines if the next match will open up the secret bunkers under escape 4 by force.
 
-### Game modes
+# Game modes
 Name|Icon|Full command
 -|:-:|-
 Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
@@ -136,7 +127,7 @@ Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgen
 Plunder|![](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png)|`scr_br_gametype dmz`
 King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png)|`scr_br_gametype kingslayer`
 
-### Special events
+# Events
 Name|Version|Icon|Full command
 -|-|:-:|-
 Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`Lorem ipsum dolor sit amet, consectetur adipiscing elit`
@@ -149,11 +140,10 @@ Festive Fervor|1.50-2|![](./images/iw8/v_ui_icon_codmas_krampus_alive.png)|`exec
 Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/1/11/OperationMonarch_Logo_WZ.png)|`scr_br_gametype mendota;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_mendota 1;exec pr_br_mendota.cfg;seta scr_br_alt_mode_mxp 5`
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+**²**|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
-
 💡¹It requires a controller set as the primary input method, as you need to unplug it and plug it back in to get any input.
-💡 ²1.63 is a very unstable/broken build, the event will work in post versions, however it may be missing some mechanics.
-    
-### WZ Inventories
+💡²1.63 is a very unstable/broken build, the event will work in post versions, however it may be missing some mechanics.
+
+# WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
 Loadout name, example: *setWZPrivateLoadout loadouts 0 name "Fist of iron"*
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon`
@@ -161,7 +151,7 @@ Weapon setup, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon iw8
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
 Weapon setup camouflage, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 camo camo_mp_t9mastery_gold*
 
-### WZ Camouflages
+# WZ Camouflages
 **Cold War, Multiplayer mastery**
 
 Name|Icon|ID
@@ -169,7 +159,6 @@ Name|Icon|ID
 Gold|![](https://static.wikia.nocookie.net/callofduty/images/0/05/Gold_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_gold`
 Diamond|![](https://static.wikia.nocookie.net/callofduty/images/7/73/Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_diamond`
 Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/DM_Ultra_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_darkmatter`
-
 💡 ¹Only available on version 1.30 onwards (Season One)
     This version has some early coverage on weapon models.
 
@@ -192,7 +181,7 @@ Name|Icon|ID
 Gold|![](./images/iw8/v_ui_elmnt_camo_110.png){90px:90px}|`s4_camo_11a`
 Diamond|![](./images/iw8/v_ui_elmnt_camo_111.png){90px:90px}|`s4_camo_11b`
 Atomic|![](./images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
-?||`s4_camo_11d`
+Unreleased camo||`s4_camo_11d`
 
 **Vanguard, Zombies mastery¹**
 
@@ -201,7 +190,6 @@ Name|Icon|ID
 Golden Viper|![](./images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
 Plague Diamond|![](./images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
 Dark Aether|![](./images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
-
 💡 ¹Only available on version 1.46 onwards (Season One)
 
 **Events**
@@ -213,7 +201,6 @@ Liquid Metal|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/Liquid
 Skynet||`s4_camo_titanium_trials_03`
 Death Prospector||`mtl_s4_camo_gold_woodland`
 False Protector||`mtl_s4_camo_gold_digital`
-
   </script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="../assets/js/site.js"></script>
