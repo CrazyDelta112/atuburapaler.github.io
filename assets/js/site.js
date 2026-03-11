@@ -14,8 +14,8 @@ const COD_SITE = {
       key: 'mw',
       title: 'Modern Warfare',
       kicker: 'Odin Collection',
-      desc: 'Version history, menus, visuals, inventories, Warzone triggers, game modes, special events, and WZ camouflages for Modern Warfare.',
-      hero: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2000950/library_hero_2x.jpg?t=1677185679',
+      desc: 'Versions, menus, visuals, inventories, Warzone, game modes, special events, & camouflages.',
+      hero: 'https://cdn2.steamgriddb.com/hero/fa5e2d8f160a9160ba19cf589cdc017b.jpg',
       file: 'md/MW.md',
       quote: '“We get dirty and the world stays clean. That`s the mission.”',
       badge: 'IW8'
@@ -24,8 +24,8 @@ const COD_SITE = {
       key: 'mwii',
       title: 'Modern Warfare II',
       kicker: 'Cortez Collection',
-      desc: 'Menus, visuals, private loadouts, exclusive weapons, Warzone 2.0 settings, game modes, Champions Quest values, and DMZ content.',
-      hero: 'https://cdn2.steamgriddb.com/hero/8b4bcaeccf864f7508097af0d97429ca.jpg',
+      desc: 'Menus, visuals, inventories, exclusive weapons, Warzone 2.0, game modes, champions quest, & DMZ.',
+      hero: 'https://cdn2.steamgriddb.com/hero/d1125511234053cc18e54514e01a978f.jpg',
       file: 'md/MWII.md',
       quote: '“Be careful who you trust, Sergeant. People you know can hurt you the most.”',
       badge: 'IW9'
@@ -34,7 +34,7 @@ const COD_SITE = {
       key: 'mwiii',
       title: 'Modern Warfare III',
       kicker: 'Jupiter Collection',
-      desc: 'Versions, menus, visuals, inventories, zombies story missions, acquisitions, wonder weapons, Warzone 2.0 commands, and more.',
+      desc: 'Menus, visuals, inventories, exclusive weapons, Warzone 2.0, game modes, & MWZ.',
       hero: 'https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg',
       file: 'md/MWIII.md',
       quote: '“Take this to hell with you, Captain... Never bury your enemies alive.”',
@@ -44,7 +44,7 @@ const COD_SITE = {
       key: 'vg',
       title: 'Vanguard',
       kicker: 'Fore Collection',
-      desc: 'Menus, visuals, multiplayer inventories, camouflages, exclusive weapons, zombies inventories, wonder weapons, and zombies camouflages.',
+      desc: 'Menus, visuals, inventories, exclusive weapons, Zombies, wonder weapons, & camouflages.',
       hero: 'https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg',
       file: 'md/VG.md',
       quote: '“Ever heard of Vanguard? I created Vanguard.”',
@@ -570,7 +570,7 @@ async function renderPage(pageKey) {
     const cards = document.getElementById('overview-cards');
     const h2s = [...content.querySelectorAll('h2')].slice(0, 3);
     const featureImages = [
-      'https://static.wikia.nocookie.net/callofduty/images/0/0d/Multiplayer_Reveal_Promo36_MWII.jpg',
+      './images/blog/MW-S6-Announce-New-Marksman.jpg',
       'https://static.wikia.nocookie.net/callofduty/images/2/27/Multiplayer_Promo2_MWIII.jpg',
       'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/vgd/VGD-S2-ANNOUNCEMENT-016.jpg'
     ];
