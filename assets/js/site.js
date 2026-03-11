@@ -24,8 +24,8 @@ const COD_SITE = {
       key: 'mwii',
       title: 'Modern Warfare II',
       kicker: 'Cortez Collection',
-      desc: 'Menus, visuals, inventories, exclusive weapons, Warzone 2.0, game modes, champions quest, & DMZ.',
-      hero: 'https://cdn2.steamgriddb.com/hero/d1125511234053cc18e54514e01a978f.jpg',
+      desc: 'Menus, visuals, inventories, exclusive weapons, Warzone 2.0, game modes, & DMZ.',
+      hero: 'https://cdn2.steamgriddb.com/hero/8b4bcaeccf864f7508097af0d97429ca.jpg',
       file: 'md/MWII.md',
       quote: '“Be careful who you trust, Sergeant. People you know can hurt you the most.”',
       badge: 'IW9'
@@ -35,7 +35,7 @@ const COD_SITE = {
       title: 'Modern Warfare III',
       kicker: 'Jupiter Collection',
       desc: 'Menus, visuals, inventories, exclusive weapons, Warzone 2.0, game modes, & MWZ.',
-      hero: 'https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg',
+      hero: 'https://cdn2.steamgriddb.com/hero/b8fce3c702e762d4ca4395d64edd1378.jpg',
       file: 'md/MWIII.md',
       quote: '“Take this to hell with you, Captain... Never bury your enemies alive.”',
       badge: 'Jupiter'
